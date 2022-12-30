@@ -220,9 +220,9 @@ jiren = `
 ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
                     𝗠𝗘𝗡𝗨
 ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
-BOT NAME : BOTZ BUG
-RUNING ON : VPS
-OWNER : wa.me/62xxx
+BOT NAME : BotVIP
+RUNING ON : Panel
+OWNER : wa.me/6285723219491
 
 SILAHKAN PILIH MENU DIBAWAH
 
