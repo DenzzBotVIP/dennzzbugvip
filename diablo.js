@@ -24,7 +24,7 @@ chats: {},
 
 global.ownerName = 'DenzzVIP'
 global.ownerNumber = ["085723219491,6285723219491,wa.me/6285723219491"]
-global.prefa = [''.',']
+global.prefa = ['','.']
 global.mess = {
     wait: 'Wait Sis Please be patient',
     succes: 'Good Luck Sis ?',
