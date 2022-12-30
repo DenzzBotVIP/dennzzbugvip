@@ -228,8 +228,9 @@ SILAHKAN PILIH MENU DIBAWAH
 
 • bugmenu
 • othermenu
+• bacadeks
 
-CREDIT : BOT BUG 
+CREDIT : DenzzJB :D 
 ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
     
 `
@@ -271,11 +272,29 @@ jiren = `
 `
 diablobotwhatsapp.reply(jiren)
 break
+case 'bacadeks':
+jiren = `
+▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
+                  BacaDEKS
+▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
+【♡ۣۜۜ፝͜͜͡͡✿➣  • Jangan Di Spam Nanti Kenon 
+【♡ۣۜۜ፝͜͜͡͡✿➣  • Jeda Minimal 5-10Menit
+【♡ۣۜۜ፝͜͜͡͡✿➣  • Langgar Kick No REFF
+【♡ۣۜۜ፝͜͜͡͡✿➣  • Jika Ada Masalah Chat OWNER
+【♡ۣۜۜ፝͜͜͡͡✿➣  • Sewa 10K 1 GROUP
+【♡ۣۜۜ፝͜͜͡͡✿➣  • Jadi Bot 30K
+【♡ۣۜۜ፝͜͜͡͡✿➣  • Sewa 5k PM
+【♡ۣۜۜ፝͜͜͡͡✿➣  • OWNER : wa.me/6285723219491
+▬▭▬▭▬▭▬▭▬▭▬▭▬
+
+`
+diablobotwhatsapp.reply(jiren)
+break
 case 'akses':
-diablobotwhatsapp.reply(`UNTUK AKSES BOT CHAT OWNER : wa.me/628xxx`)
+diablobotwhatsapp.reply(`MAU MINTA AKSES? CHAT OWNER : wa.me/6285723219491`)
 break
 case 'sewa':
-diablobotwhatsapp.reply(`UNTUK SEWA BOT CHAT OWNER : wa.me/628xxx`)
+diablobotwhatsapp.reply(`MAU SEWA PM OWNER : wa.me/6285723219491`)
 break
 case 'masuk_ke': {
 if (!itsMediablo) return diablobotwhatsapp.reply(mess.owner)
@@ -286,9 +305,9 @@ await diablo.groupAcceptInvite(result).then((res) => diablobotwhatsapp.reply(jso
 }
 break
 case 'restart':{
- if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
-if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
-        txts = `SUCCES KAK`
+ if (!isGroup) return diablobotwhatsapp.reply(`dalam grub yak om`)
+if (!isGroupAdmins) return diablobotwhatsapp.reply(`dih goblok bukan pemilik :(`)
+        txts = `SUCCES YAK RAWRR`
         diablobotwhatsapp.reply(txts)
  let cp = require('child_process')
 let { promisify } = require('util')
@@ -304,8 +323,8 @@ let { stdout, stderr } = o
 }
 break
 case 'addakses':
- if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
-if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+ if (!isGroup) return diablobotwhatsapp.reply(`dalam grub om`)
+if (!isGroupAdmins) return diablobotwhatsapp.reply(`dihh chuaks udah di kasih tau bukan pemilik`)
         
 if (!args[0]) return diablobotwhatsapp.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 0`)
 bnnd = q.split("|")[0].replace(/[^0-9]/g, '')
@@ -316,18 +335,18 @@ fs.writeFileSync('./database/owner.json', JSON.stringify(owner))
 diablobotwhatsapp.reply(`Nomor ${bnnd} Sudah Bisa Akses!!!`)
 break
 case 'delakses':
-    if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
-if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+    if (!isGroup) return diablobotwhatsapp.reply(`dalam grub om`)
+if (!isGroupAdmins) return diablobotwhatsapp.reply(`dahlah udah tau bukan pemilik`)
         
 if (!args[0]) return diablobotwhatsapp.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 0`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
 fs.writeFileSync('./database/owner.json', JSON.stringify(owner))
-diablobotwhatsapp.reply(`Nomor ${ya} Sudah Tidak Bisa Akses Bot`)
+diablobotwhatsapp.reply(`Nomor ${ya} Mampus Kga Bisa Akses`)
 break
 case 'tag': {
- if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+ if (!itsMediablo) return diablobotwhatsapp.reply(`lo bukan pemilik bot ego`)
    
 diablo.sendMessage(diablobotwhatsapp.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: diablobotwhatsapp })
 }
@@ -370,7 +389,7 @@ diablobotwhatsapp.reply(respon)
 }
 break
    case 'kill':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`lo bukan pemilik bot ego`)
            if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
@@ -456,7 +475,7 @@ await sleep(ms(waktu))
 break
 case 'dor':
   case 'bug10':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`lo bukan pemilik bot ego`)
            if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
@@ -643,7 +662,7 @@ break
 case 'troli':
 case 'brutal':
 case 'bug1000':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`lo bukan pemilik bot ego`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
         
