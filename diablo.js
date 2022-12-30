@@ -24,7 +24,7 @@ chats: {},
 
 global.ownerName = 'DenzzVIP'
 global.ownerNumber = ["085723219491,6285723219491,wa.me/6285723219491"]
-global.prefa = [''_'~']
+global.prefa = [''.',']
 global.mess = {
     wait: 'Wait Sis Please be patient',
     succes: 'Good Luck Sis ?',
@@ -223,6 +223,7 @@ jiren = `
 BOT NAME : BotVIP
 RUNING ON : Panel
 OWNER : wa.me/6285723219491
+Runing 24JAM Non Stop
 
 SILAHKAN PILIH MENU DIBAWAH
 
@@ -283,7 +284,6 @@ jiren = `
 【♡ۣۜۜ፝͜͜͡͡✿➣  • Jika Ada Masalah Chat OWNER
 【♡ۣۜۜ፝͜͜͡͡✿➣  • Sewa 10K 1 GROUP
 【♡ۣۜۜ፝͜͜͡͡✿➣  • Jadi Bot 30K
-【♡ۣۜۜ፝͜͜͡͡✿➣  • Sewa 5k PM
 【♡ۣۜۜ፝͜͜͡͡✿➣  • OWNER : wa.me/6285723219491
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
 
